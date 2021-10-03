@@ -103,6 +103,7 @@ namespace GeneralStore.MVC.Controllers
             return RedirectToAction("Index");
         }
 
+        //Post: Create
         [HttpPost]
         public ActionResult Create(Product product)
         {
